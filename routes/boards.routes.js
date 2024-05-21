@@ -1,6 +1,6 @@
 import { Router } from "express";
-import {getAllBoards, getBoard, createBoard, updateBoard, deleteBoard} 
-from "../controllers/boards.controller.js";
+import { getAllBoards, getBoard, createBoard, updateBoard, deleteBoard }
+    from "../controllers/boards.controller.js";
 import tasksRouter from "./tasks.routes.js";
 import columnsRouter from "./columns.routes.js";
 

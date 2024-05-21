@@ -1,6 +1,6 @@
 import { Router } from "express";
-import {getAllColumns, getColumn, createColumn, updateColumn, deleteColumn} 
-from "../controllers/columns.controller.js";
+import { getAllColumns, getColumn, createColumn, updateColumn, deleteColumn }
+    from "../controllers/columns.controller.js";
 
 const router = Router();
 
